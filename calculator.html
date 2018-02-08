@@ -1,6 +1,7 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html><head>
 <!-- copiado das instruccións da práctica en miriadax -->
-<title>Calculator</title><meta charset="utf-8">
+<title>Calculadora</title><meta charset="utf-8">
 
 <script type="text/javascript">
 
@@ -11,12 +12,21 @@ var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3);
 
 }
-<!-- engadido na rama creada a partir do primeiro commit -->
+
 function seno() {
 
 var num = document.getElementById("n1");
 
-num.value = Math.sin(num.value, 3);
+num.value = Math.sin(num.value);
+
+}
+
+function cuarta() {
+
+var num = document.getElementById("n1");
+
+num.value = Math.pow(num.value, 4);
+
 
 }
 </script>
@@ -25,12 +35,16 @@ num.value = Math.sin(num.value, 3);
 
 <body>
 <h1>Calculadora de Xosé M.<h1>
-Number:
+Número:
 
 <input type="text" id="n1"><p>
 
 <button onclick="cube()"> x^3 </button>
-<button onclick="seno()"> Seno </button>
+
+<button onclick="seno()"> Seno(rad) </button>
+
+<button onclick="cuarta()"> x^4 </button>
+
 
 </body>
 
