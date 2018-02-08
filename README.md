@@ -1,6 +1,6 @@
-#README.md#
+## README.md ##
 
-Primer fichero en el primer repositorio de *Xosé M.*
+Primer fichero en el primer *repositorio* de **Xosé M.**
 
 - Readme & crear calculator con x³
 - Agregar x⁴
